@@ -12,7 +12,7 @@ The specifications and improvement proposals live in the Quantova organization r
 
 ## SDKs
 
-Install the JavaScript SDK from npm as @qunatovainc/qcore. The Rust and Python SDKs are QCore.rs and QCore.py. All three wrap the same gateway, where each call is an HTTP POST to /v1/<method>.
+Install the JavaScript SDK from npm as @quantovainc/qcore. The Rust and Python SDKs are QCore.rs and QCore.py. All three wrap the same gateway, where each call is an HTTP POST to /v1/<method>.
 
 ## Reporting bugs
 

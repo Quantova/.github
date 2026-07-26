@@ -30,6 +30,6 @@ Q-Oracle is where a foreign chain is verified off the network and reduced to a p
 
 ## QCore, the client SDKs
 
-QCore is the client library that derives keys, builds and signs transactions, and communicates with a node over its gateway. A single Rust core provides the JavaScript and Python bindings, so every language derives identical addresses and produces identical signatures. The JavaScript package is published on npm as @qunatovainc/qcore.
+QCore is the client library that derives keys, builds and signs transactions, and communicates with a node over its gateway. A single Rust core provides the JavaScript and Python bindings, so every language derives identical addresses and produces identical signatures. The JavaScript package is published on npm as @quantovainc/qcore.
 
 Quantova is currently on testnet.
