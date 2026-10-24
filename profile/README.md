@@ -4,6 +4,14 @@ Quantova is a post quantum Layer 1 blockchain. Its cryptography, virtual machine
 
 The stack is written to its own specification. The sections below describe the parts a developer works with directly.
 
+## Ownership and Attribution
+
+Quantova Inc. is a United States based cryptographic engineering organization. It is owned by LLA, who holds the publishing rights and the intellectual property of the Quantova stack.
+
+LLA is the sole author and engineer of this work. LLA stands for the owner's initials and refers to one person. Quantova Inc. is not a team. As of the date of this notice there are no outside contributors. Every commit, every design decision, and every release is the work of LLA alone.
+
+Any use, licence, or contribution involving this intellectual property requires the written authorisation of LLA as owner of Quantova Inc.
+
 ## Q-Crypto, the cryptographic core
 
 Q-Crypto is Quantova's implementation of the NIST post quantum standards, written from scratch against the published FIPS documents. It provides ML-DSA-65 for signatures under FIPS 204, ML-KEM-768 for key encapsulation under FIPS 203, SLH-DSA for a conservative hash based signature under FIPS 205, and SHA-3 with SHAKE for hashing under FIPS 202. Every algorithm is validated against the official NIST known answer vectors, and it is the single cryptographic dependency for the entire stack.
